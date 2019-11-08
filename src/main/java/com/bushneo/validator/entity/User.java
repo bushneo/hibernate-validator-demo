@@ -3,6 +3,7 @@ package com.bushneo.validator.entity;
 import com.bushneo.validator.group.GroupUser;
 import lombok.Data;
 import org.hibernate.validator.constraints.Email;
+import org.hibernate.validator.constraints.Range;
 import org.hibernate.validator.constraints.URL;
 
 import javax.validation.Valid;
@@ -30,9 +31,9 @@ public class User {
     @NotNull(message = "email地址不能为空！")
     private String email;
 
-    @Min(value = 0, message = "年龄不合法！")
+//    @Min(value = 0, message = "年龄不合法！")
 //    @Max(value = 30, message = "年龄不能大于30岁！")
-//    @Range(min = 0,max = 150,message = "年龄不合法",payload = )
+    @Range(min = 0,max = 150,message = "年龄不合法")
     private int age;
 
     /**
