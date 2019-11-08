@@ -1,9 +1,9 @@
-package net.lxy520.validate.test;
+package com.bushneo.validate.test;
 
-import net.lxy520.validate.entity.Tag;
-import net.lxy520.validate.entity.User;
-import net.lxy520.validator.utils.ValidationResult;
-import net.lxy520.validator.utils.ValidationUtils;
+import com.bushneo.validator.entity.Tag;
+import com.bushneo.validator.entity.User;
+import com.bushneo.validator.utils.ValidationResult;
+import com.bushneo.validator.utils.ValidationUtils;
 
 import java.io.IOException;
 import java.util.HashSet;

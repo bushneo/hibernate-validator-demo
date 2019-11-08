@@ -1,4 +1,4 @@
-package net.lxy520.validator.utils;
+package com.bushneo.validator.utils;
 
 import javax.validation.ConstraintViolation;
 import javax.validation.Validation;

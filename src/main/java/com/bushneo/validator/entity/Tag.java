@@ -1,11 +1,8 @@
-package net.lxy520.validate.entity;
+package com.bushneo.validator.entity;
 
 import javax.validation.constraints.NotNull;
 
-/**
- * 标签
- * Created by YSTYLE on 2015-03-10 0010.
- */
+
 public class Tag {
 
     private int id;

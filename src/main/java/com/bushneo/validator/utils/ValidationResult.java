@@ -1,12 +1,8 @@
-package net.lxy520.validator.utils;
+package com.bushneo.validator.utils;
 
 import java.util.Map;
 
-/**
- * 校验结果
- *
- * @author YSTYLE
- */
+
 public class ValidationResult {
 
     //校验结果是否有错
